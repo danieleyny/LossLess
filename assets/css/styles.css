@@ -986,6 +986,25 @@ the website, in dark theme
     grid-template-columns: .8fr;
     justify-content: center;
   }
+  .trick__button{
+    display: inline-flex;
+    padding: .5rem;
+    border-radius: .25rem .25rem .75rem .25rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .trick__button{
+    display: inline-flex;
+    padding: .5rem;
+    border-radius: .25rem .25rem .75rem .25rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 0;
+  }
 }
 
 /* For medium devices */
@@ -1006,6 +1025,7 @@ the website, in dark theme
   .footer__subscribe{
     width: 400px;
   }
+  
 }
 
 @media screen and (min-width: 767px){
