@@ -986,14 +986,6 @@ the website, in dark theme
     grid-template-columns: .8fr;
     justify-content: center;
   }
-  .trick__button{
-    display: inline-flex;
-    padding: .5rem;
-    border-radius: .25rem .25rem .75rem .25rem;
-    position: absolute;
-    right: 0rem;
-    bottom: 0;
-  }
 }
 
 @media screen and (max-width: 500px){
@@ -1001,6 +993,7 @@ the website, in dark theme
     display: inline-flex;
     padding: .5rem;
     border-radius: .25rem .25rem .75rem .25rem;
+    background-color: rgb(145, 145, 145);
     position: absolute;
     right: 0rem;
     bottom: 0;
